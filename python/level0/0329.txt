@@ -1,0 +1,33 @@
+#개미군단
+	사냥감 체력(Enermy) 입력
+	G = Enermy // General_A
+	S = (Enermy - G*General_A) // Soldier_A
+	W = (Enermy - G*General_A - S*Soldier_A) // Worker_A
+	
+
+#구슬
+	Combination
+	
+	ex) 5 C 3 : (5*4*3) / (3*2*1)
+	ex) 3 C 2 : (3*2) / (2*1)
+	ex) 7 C 4 : (7*6*5*4) / (4*3*2*1)
+
+	count = balls - share
+
+	sum1 = balls * (balls - 1) ...   <<<<<<<<< count만큼
+	sum2 = share * (share - 1) ...   <<<<<<<< share - 1만큼
+
+	answer = sum1 / sum2
+
+
+#각도기 
+	if (angle < 90):
+        		예
+    	elif (angle == 90):
+        		직
+   	elif (angle < 180):
+        		둔
+    	elif (angle == 180):
+        		평
+    	else:
+        		규격 외
