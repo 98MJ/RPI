@@ -1,0 +1,16 @@
+level 0
+
+120802
+	num1 input
+	num2 input
+	add = num1 + num2
+	output add
+
+120585
+	정수 배열(array) 입력
+	머쓱이 키(height) 입력
+	배열값과 머쓱이 키 각각 비교하여 배열값이 큰경우 count
+	count 출력
+	
+
+120583
