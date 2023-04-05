@@ -1,0 +1,11 @@
+120808
+	denom1과 denom2 같게 함 denom
+	(denom / denom1) * numer1 + (denom / denom2) * numer2 = numer
+	denom 과 numer 공약수 유뮤 확인
+	있으면 공약수로 나눈 수를 배열에 저장
+	없으면 그대로 배열에 저장
+	
+	
+	
+
+answer.append()
